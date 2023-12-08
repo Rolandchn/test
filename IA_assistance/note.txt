@@ -1,0 +1,46 @@
+
+
+1) Wake words to wake up AI, if not wake words try again 
+
+2) Connect speech to program
+	- IA will communicate info with speech
+
+
+I - AI will contains these (TO DO):
+	1) Speech (core)
+		- speech recognition
+		- speech synthesis
+		
+	2) API (skills)
+		- Commands
+		- Help connection IA with speech
+		- ex: get the weather, note, info...
+
+	3) Fun
+		- jokes, easter eggs
+
+	4) Automate (skills)
+		- To thing automatically with voice commands
+	
+	
+II - Materials
+	1) Raspberry Pi: nano-ordinateur to run program (or pc)
+
+	2) USB microphone: to hear the speech
+	3) Speacker: to respond the speech
+
+	4) Postman: to test the API
+	
+III - Pre-requisities
+	1) sudo apt-get install portaudio
+	2) sudo apt-get install espeak
+	
+	3) get into a virtual environment
+		- sudo python3 -m venv venv
+		- source activate venv\bin\activate
+		- deactivate (to deactivate)
+	
+	4) libaries (in the virtual environment)
+		- pip install pyaudio
+		- pip install speechrecognition
+		- pip install pyttsx3
